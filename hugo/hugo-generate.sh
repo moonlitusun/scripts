@@ -1,2 +1,8 @@
 # cmd _hg
-hugo new "content/post/$1.md"
+path="$PWD"
+repo_name="moonlit-private"
+repo_path="${path%%$repo_name*}$repo_name"
+target_path="${path#*$repo_name/}"
+
+cd $repo_path
+hugo new "$target_path/$1.md"
