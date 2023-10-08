@@ -6,4 +6,4 @@ if [-n "$1"]; then
   current_remote=$1
 fi
 
-git pull origin $current_branch
+git pull $current_remote $current_branch
