@@ -8,8 +8,17 @@ if [ "$2" = "-c" ]; then
   mkdir "./$1"
   cd "./$1" || exit 1
   mkdir "./.code"
-  target_path="$target_path/$1"
+  target_path="$target_path/$1/$1.md"
+else
+  target_path="$target_path/$1.md"
 fi
 
 cd $repo_path
-hugo new "$target_path/$1.md"
+hugo new "$target_path"
+
+sleep 1
+
+# use vscode
+if command -v code >/dev/null 2>&1; then
+  code "$target_path"
+fi
