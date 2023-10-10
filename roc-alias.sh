@@ -15,7 +15,8 @@ alias _gpl="sh $1/git/gpl.sh"
 alias _glg="sh $1/git/glg.sh"
 
 # bun
-alias _br="sh $1/bun/br.sh"
+alias _br="bun run"
+alias _bre="bun run esboot"
 alias _bd="bun dev"
 alias _bb="bun run build"
 alias _bi="bun install"
