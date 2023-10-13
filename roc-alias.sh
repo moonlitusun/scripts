@@ -32,3 +32,4 @@ alias _pip="pip3"
 
 # misc
 alias _qdd="osascript -e 'quit app \"DingTalk\"'"
+alias _clsdns="sh $1/clsdns.sh"
