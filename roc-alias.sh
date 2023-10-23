@@ -29,6 +29,7 @@ alias _pr="pnpm remove"
 # py
 alias _py="python3"
 alias _pip="pip3"
+alias _pe="pipenv"
 
 # misc
 alias _qdd="osascript -e 'quit app \"DingTalk\"'"
