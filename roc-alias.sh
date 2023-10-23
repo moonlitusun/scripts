@@ -35,3 +35,4 @@ alias _per="pipenv run"
 # misc
 alias _qdd="osascript -e 'quit app \"DingTalk\"'"
 alias _clsdns="sh $1/clsdns.sh"
+alias _kp="lsof -ti :$1 | xargs kill"
