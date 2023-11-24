@@ -26,6 +26,7 @@ alias _bx="bunx"
 alias _pi="pnpm install"
 alias _pr="pnpm remove"
 alias _pl="pnpm link --global"
+alias _pp="pnpm publish --no-git-checks --access public"
 
 # py
 alias _py="python3"
