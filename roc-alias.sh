@@ -1,42 +1,42 @@
 # source ~/Code/github/_script/roc-alias.sh ~/Code/github/_script
 
-alias _hn="hugo new"
-alias _hg="sh $1/hugo/hugo-generate.sh"
+alias ",hn"="hugo new"
+alias ",hg"="sh $1/hugo/hugo-generate.sh"
 
 # yarn
-alias _yll="sh $1/yarn/yll.sh"
-alias _yls="( ls -l node_modules ; ls -l node_modules/@* ) | grep ^l"
-alias _oyl="open ~/.config/yarn/link"
+alias ",yll"="sh $1/yarn/yll.sh"
+alias ",yls"="( ls -l node_modules ; ls -l node_modules/@* ) | grep ^l"
+alias ",oyl"="open ~/.config/yarn/link"
 
 # git
-alias _gam="sh $1/git/gam.sh"
-alias _gpa="sh $1/git/gpa.sh"
-alias _gpl="sh $1/git/gpl.sh"
-alias _glg="sh $1/git/glg.sh"
+alias ",gam"="sh $1/git/gam.sh"
+alias ",gpa"="sh $1/git/gpa.sh"
+alias ",gpl"="sh $1/git/gpl.sh"
+alias ",glg"="sh $1/git/glg.sh"
 
 # bun
-alias _br="bun run"
-alias _bre="bun run esboot"
-alias _bd="bun dev"
-alias _bb="bun run build"
-alias _bi="bun install"
-alias _bx="bunx"
+alias ",br"="bun run"
+alias ",bre"="bun run esboot"
+alias ",bd"="bun dev"
+alias ",bb"="bun run build"
+alias ",bi"="bun install"
+alias ",bx"="bunx"
 
 # pnpm
-alias _pi="pnpm install"
-alias _pr="pnpm remove"
-alias _pl="pnpm link --global"
-alias _pp="pnpm publish --no-git-checks --access public"
+alias ",pi"="pnpm install"
+alias ",pr"="pnpm remove"
+alias ",pl"="pnpm link --global"
+alias ",pp"="pnpm publish --no-git-checks --access public"
 
 # py
-alias _py="python3"
-alias _pip="pip3"
-alias _pe="pipenv"
-alias _per="pipenv run"
+alias ",py"="python3"
+alias ",pip"="pip3"
+alias ",pe"="pipenv"
+alias ",per"="pipenv run"
 
 # misc
-alias _qdd="osascript -e 'quit app \"DingTalk\"'"
-alias _clsdns="sh $1/clsdns.sh"
-alias _kp="lsof -ti :$1 | xargs kill"
-# alias _relp="cd $1/scripts/relative-path && pipenv run dev"
-alias _relp="python3 $1/scripts/relative-path/index.py"
+alias ",qdd"="osascript -e 'quit app \"DingTalk\"'"
+alias ",clsdns"="sh $1/clsdns.sh"
+alias ",kp"="lsof -ti :$1 | xargs kill"
+# alias ",relp"="cd $1/scripts/relative-path && pipenv run dev"
+alias ",relp"="python3 $1/scripts/relative-path/index.py"
