@@ -13,8 +13,9 @@ else
   target_path="$target_path/$1.md"
 fi
 
+echo $target_path
 cd $repo_path
-hugo new "$target_path"
+hugo new "$target_path" -c "./."
 
 sleep 1
 
