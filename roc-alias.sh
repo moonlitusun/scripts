@@ -29,8 +29,8 @@ alias ",pl"="pnpm link --global"
 alias ",pp"="pnpm publish --no-git-checks --access public"
 
 # py
-alias ",py"="python3"
-alias ",pip"="pip3"
+alias ",py"="python"
+alias ",pip"="pip"
 alias ",pe"="pipenv"
 alias ",per"="pipenv run"
 
