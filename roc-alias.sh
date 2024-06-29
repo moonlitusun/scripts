@@ -2,6 +2,7 @@
 
 alias ",hn"="hugo new"
 alias ",hg"="sh $1/hugo/hugo-generate.sh"
+alias ",kp"=",bx kp"
 
 # yarn
 alias ",yll"="sh $1/yarn/yll.sh"
