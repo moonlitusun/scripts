@@ -14,6 +14,8 @@ alias ",gam"="sh $1/git/gam.sh"
 alias ",gpa"="sh $1/git/gpa.sh"
 alias ",gpl"="sh $1/git/gpl.sh"
 alias ",glg"="sh $1/git/glg.sh"
+alias ",gst"="git stash"
+alias ",gstp"="git stash pop"
 
 # bun
 alias ",br"="bun run"
