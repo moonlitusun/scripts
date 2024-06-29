@@ -2,7 +2,7 @@
 
 alias ",hn"="hugo new"
 alias ",hg"="sh $1/hugo/hugo-generate.sh"
-alias ",kp"=",bx kp"
+alias ",kp"="bunx kp"
 
 # yarn
 alias ",yll"="sh $1/yarn/yll.sh"
@@ -40,6 +40,6 @@ alias ",per"="pipenv run"
 # misc
 alias ",qdd"="osascript -e 'quit app \"DingTalk\"'"
 alias ",clsdns"="sh $1/clsdns.sh"
-alias ",kp"="lsof -ti :$1 | xargs kill"
+# alias ",kp"="lsof -ti :$1 | xargs kill"
 # alias ",relp"="cd $1/scripts/relative-path && pipenv run dev"
 alias ",relp"="python3 $1/scripts/relative-path/index.py"
