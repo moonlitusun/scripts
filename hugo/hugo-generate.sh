@@ -19,7 +19,12 @@ hugo new "$target_path" -c "./."
 
 sleep 1
 
-# use vscode
-if command -v code >/dev/null 2>&1; then
-  code "$target_path"
+# # use vscode
+# if command -v code >/dev/null 2>&1; then
+#   code "$target_path"
+# fi
+
+# use cursor
+if command -v cursor >/dev/null 2>&1; then
+  cursor "$target_path"
 fi
