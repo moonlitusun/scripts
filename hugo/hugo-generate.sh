@@ -31,7 +31,7 @@ sleep 1
 #   code "$target_path"
 # fi
 
-# use cursor
-# if command -v cursor >/dev/null 2>&1; then
-#   cursor "$target_path"
-# fi
+use cursor
+if command -v cursor >/dev/null 2>&1; then
+  cursor "$target_path"
+fi
