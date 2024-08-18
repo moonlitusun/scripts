@@ -37,6 +37,9 @@ alias ",pip"="pip"
 alias ",pe"="pipenv"
 alias ",per"="pipenv run"
 
+# rust
+alias ",j"="just"
+
 # misc
 alias ",qdd"="osascript -e 'quit app \"DingTalk\"'"
 alias ",clsdns"="sh $1/clsdns.sh"
