@@ -1,5 +1,8 @@
 # source ~/Code/github/_script/roc-alias.sh ~/Code/github/_script
 
+# sh
+alias ",hs"="history | grep $2"
+
 alias ",hn"="hugo new"
 alias ",hg"="sh $1/hugo/hugo-generate.sh"
 alias ",kp"="bunx kp"
