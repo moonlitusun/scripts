@@ -1,3 +1,4 @@
+#!/bin/bash
 # source ~/Code/github/_script/roc-alias.sh ~/Code/github/_script
 
 # sh
@@ -49,4 +50,4 @@ alias ",clsdns"="sh $1/clsdns.sh"
 # alias ",kp"="lsof -ti :$1 | xargs kill"
 # alias ",relp"="cd $1/scripts/relative-path && pipenv run dev"
 alias ",relp"="python3 $1/scripts/relative-path/index.py"
-alias ",kill"="lsof -ti:$1 | xargs kill -9 || echo \"No process on port $1\""
+alias ",kill"="sh $1/kill-port.sh"
