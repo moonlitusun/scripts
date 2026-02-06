@@ -31,7 +31,12 @@ sleep 1
 #   code "$target_path"
 # fi
 
-use cursor
-if command -v cursor >/dev/null 2>&1; then
-  cursor "$target_path"
+# use cursor
+# if command -v cursor >/dev/null 2>&1; then
+#   cursor "$target_path"
+# fi
+
+# use antigravity
+if command -v antigravity >/dev/null 2>&1; then
+  antigravity "$target_path"
 fi
