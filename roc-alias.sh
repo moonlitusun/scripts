@@ -45,9 +45,8 @@ alias ",per"="pipenv run"
 alias ",j"="just"
 
 # misc
-alias ",qdd"="osascript -e 'quit app \"DingTalk\"'"
 alias ",clsdns"="sh $1/clsdns.sh"
 # alias ",kp"="lsof -ti :$1 | xargs kill"
 # alias ",relp"="cd $1/scripts/relative-path && pipenv run dev"
-alias ",relp"="python3 $1/scripts/relative-path/index.py"
+alias ",relp"="bash $1/scripts/relative-path.sh"
 alias ",kill"="sh $1/kill-port.sh"
