@@ -20,6 +20,7 @@ alias ",gpl"="sh $1/git/gpl.sh"
 alias ",glg"="sh $1/git/glg.sh"
 alias ",gst"="git stash"
 alias ",gstp"="git stash pop"
+alias ",gcp"="sh $1/git/gcp.sh"
 
 # bun
 alias ",br"="bun run"
@@ -45,6 +46,12 @@ alias ",per"="pipenv run"
 alias ",j"="just"
 
 # misc
+,mcd() { mkdir -p "$1" && cd "$1"; }
+alias ",lp"="lsof -i -P -n | grep LISTEN"
+alias ",cpw"="pbcopy < "
+alias ",zip"="bash $1/scripts/extract.sh"
+alias ",rmdep"="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+
 alias ",clsdns"="sh $1/clsdns.sh"
 # alias ",kp"="lsof -ti :$1 | xargs kill"
 # alias ",relp"="cd $1/scripts/relative-path && pipenv run dev"
