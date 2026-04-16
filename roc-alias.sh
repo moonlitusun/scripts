@@ -51,6 +51,7 @@ alias ",lp"="lsof -i -P -n | grep LISTEN"
 alias ",cpw"="pbcopy < "
 alias ",zip"="bash $1/scripts/extract.sh"
 alias ",rmdep"="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+alias ",pu"="export PROMPT='sundaysun %~ %# '"
 
 alias ",clsdns"="sh $1/clsdns.sh"
 # alias ",kp"="lsof -ti :$1 | xargs kill"
