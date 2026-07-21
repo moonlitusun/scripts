@@ -45,6 +45,10 @@ alias ",per"="pipenv run"
 # rust
 alias ",j"="just"
 
+# tu
+alias ,tu="tu antigravity sync && tu --today"
+alias ,tui="tu antigravity sync && tu tui"
+
 # misc
 ,mcd() { mkdir -p "$1" && cd "$1"; }
 alias ",lp"="lsof -i -P -n | grep LISTEN"
